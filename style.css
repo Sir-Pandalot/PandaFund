@@ -1,6 +1,7 @@
-body, html {
-	width: 960px;
-	margin: 0 auto;
+body { 
+width:960px;
+margin: 0 auto;
+font-family:helvetica;
 }
 
 img {
@@ -25,3 +26,40 @@ img {
 	text-align: center;
 }
 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width:840px;
+    margin-top:70px;
+
+}
+
+li {
+	float:left;
+
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 119px;
+    padding-left:100px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li a:hover {
+    background-color: white;
+    color:black;
+}
+
+.cutepanda	{
+
+margin-top:50px;
+
+}
