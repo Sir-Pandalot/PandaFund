@@ -45,8 +45,9 @@ nav ul {
 }
 
 nav li {
+	width: 320px;
 	float:left;
-
+	text-align: center;
 }
 
 nav li a {
@@ -54,8 +55,7 @@ nav li a {
     color: white;
     font-weight: bold;
     text-align: center;
-    padding: 14px 119px;
-    padding-left:100px;
+    padding: 14px 120px;
     text-decoration: none;
     text-transform: uppercase;
 }
