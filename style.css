@@ -1,7 +1,7 @@
 body { 
-width:960px;
-margin: 0 auto;
-font-family:helvetica;
+	width:960px;
+	margin: 0 auto;
+	font-family:helvetica;
 }
 
 img {
@@ -27,23 +27,22 @@ img {
 }
 
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
-    width:840px;
-    margin-top:70px;
-
+    width: 960px;
+    margin-top: 20px;
 }
 
-li {
+nav li {
 	float:left;
 
 }
 
-li a {
+nav li a {
     display: inline-block;
     color: white;
     font-weight: bold;
@@ -53,7 +52,8 @@ li a {
     text-decoration: none;
     text-transform: uppercase;
 }
-li a:hover {
+
+nav li a:hover {
     background-color: white;
     color:black;
 }
